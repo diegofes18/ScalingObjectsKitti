@@ -5,7 +5,7 @@ This Python script resizes images and annotations in the KITTI format to a speci
 To use this script, you will need to have Python 3 and OpenCV installed on your machine. You can run the script with the following command:
 
 ```
-python image_annotation_resizer.py img_path notes_path output_path
+python scaler.py img_path notes_path output_path
 ```
 
 The script takes three arguments:
@@ -20,7 +20,7 @@ The script will create a new directory structure in the output_path directory wi
 Here is an example of how to use the script:
 
 ```
-python image_annotation_resizer.py ./data/images ./data/annotations ./output
+python scaler.py ./data/images ./data/annotations ./output
 ```
 
 This command will resize the images and annotations in the ./data/images and ./data/annotations directories to 284x284 pixels and save the resized images and annotations in the ./output directory.
